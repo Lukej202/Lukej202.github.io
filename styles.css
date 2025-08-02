@@ -1,0 +1,122 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .grey-box{
+            background: linear-gradient(to bottom right, #e0e0e0, #f0f0f0);
+            padding: 30px;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 800px;
+            min-height: 300px;
+            max-height: 1500px;
+            overflow-y: auto;
+        
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+            font-size: 1.1em;
+            text-align: center;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        
+            box-sizing: border-box;
+        }
+        li {
+            padding: 5px 0;
+            text-align: left;
+        }
+        .tagline {
+            font-size: 2.0em;
+            color: #7a1399;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .container{
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            display: block;
+            position: relative;
+            max-width: 900px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #status {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 1.2em;
+            color: #2e7d32;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img.logo {
+            width: 500px;
+            
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+            font: fairwater;
+            font-size: 1.1em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .grey-box {
+                padding: 20px;
+                font-size: 1em;
+                max-height: none;
+            }
+        
+            input[type="text"],
+            button {
+                width: 100%;
+                font-size: 1em;
+            }
+        
+            h1, h2 {
+                font-size: 1.4em;
+            }
+        }
